@@ -1,12 +1,10 @@
 {
-  "homepage": "https://Maksym-Svyrydov.github.io/bringitup-vanila-JS/",
   "name": "loan",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/*.html --public-url /bringitup-vanila-JS/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
