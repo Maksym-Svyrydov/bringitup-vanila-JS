@@ -8,7 +8,7 @@ const dist = './dist/';
 // const dist = "/Applications/MAMP/htdocs/test"; // Ссылка на вашу папку на сервере
 // Deploy
 gulp.task('deploy', function () {
-  return gulp.src('./build/**/*').pipe(ghPages());
+  return gulp.src('./dist/**/*').pipe(ghPages());
 });
 gulp.task('copy-html', () => {
   return gulp
